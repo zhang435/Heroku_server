@@ -39,6 +39,5 @@ app.get("/about" , (req, res) => {
 
 })
 app.listen(port, () => {
-    console.log(`listen a ${port}`);
-}; 
- 
+    console.log(`listen a ${port}`)
+});
